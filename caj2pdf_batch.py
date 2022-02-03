@@ -11,7 +11,6 @@ def caj_list(file_dir):
 fdir = './caj_to_convert/'
 outdir = './output_pdfs/'
 flist = caj_list(fdir)
-flist
 
 for fname in flist:
     cmd = "./caj2pdf convert " + fdir + fname + ".caj" + " -o " + outdir + fname + ".pdf"
