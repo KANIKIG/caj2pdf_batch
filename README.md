@@ -7,15 +7,16 @@
 ## 安装方法
 
 1. clone [caj2pdf](https://github.com/caj2pdf/caj2pdf) 到本地
-2. clone本项目到本地
-3. 把本项目所有文件（除了Readme）复制到caj2pdf文件夹下
+2. clone 本项目到本地
+3. 把 `caj2pdf_batch.py` 复制到 caj2pdf 项目文件夹下
 
 ## 使用方法
 
-1. 终端进入caj2pdf 文件夹
-2. 把待转换的 caj 文件放入 `caj_to_convert` 文件夹
-3. 在 caj2pdf 项目目录执行 `python caj2pdf_batch.py`
-4. 转换后的文件在 `output_pdfs`
+1. 终端进入caj2pdf 项目文件夹
+2. 创建 `caj_to_convert` 与 `output_pdfs`文件夹
+3. 把待转换的 caj 文件放入 `caj_to_convert` 文件夹
+4. 在 caj2pdf 项目目录执行 `python caj2pdf_batch.py`
+5. 转换后的文件在 `output_pdfs`
 
 ## 注意
 
